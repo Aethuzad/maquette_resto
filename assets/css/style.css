@@ -13,6 +13,10 @@
     font-family: "playfairDR", serif;
 }
 
+img,input {
+    width: 100%;
+}
+
 body {
     /* margin: 0; */
 }
@@ -69,4 +73,89 @@ li {
 h1 {
     padding: 1rem;
     font-family: "playfairDR";
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+/* MAIN */
+/* SECTION */
+
+#about,
+#menu {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 3rem auto;
+}
+
+#about div,#menu div {
+    border: 1px red solid;
+    width: 48%;
+}
+
+#about span {
+    background-color: lightgrey;
+}
+
+#about h2,
+#about h3,
+#menu h2{
+    text-align: center;
+}
+
+#about h2,#menu h2{
+    letter-spacing: 5px;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#about h3,#menu h3{
+    padding: 20px 20px 5px 0px;
+    letter-spacing: 5px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+#about p{
+    font-size: 21px;
+    padding: 10px 0;
+    line-height: 32px;
+}
+
+#about .premier_p {
+    font-weight: 500;
+    margin: .5rem 0;
+}
+
+#about .second_p {
+    font-weight: 100;
+    color: gray;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#menu p{
+    padding: 20px 20px 20px 0px;
+}
+
+/* A COMPLETER PLUS TARD */
+
+#contact{
+    width: 70%;
+    margin: 3rem auto;
+}
+
+#contact input{
+    border: none;
+    border-bottom: 0.5px lightgray solid;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+}
+#contact .send{
+    width: fit-content;
+    border: none;
 }
